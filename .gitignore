@@ -1,0 +1,15 @@
+# Terraform / Terragrunt
+.terragrunt-cache/
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Terragrunt-generated files (recreated on every init)
+backend.tf
+provider.tf
+
+# Editor / OS
+.DS_Store
+*.swp
